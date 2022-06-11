@@ -1,12 +1,13 @@
 :root{
     --main-font: "Roboto";
-    --white-txt-ci:
+    --white-txt-ci:"#757575";
 }
 
 
 body{
     font-family: var(--main-font), sans-serif;
     font-style: normal;
+    color: var(--white-txt-ci);
 }
 .link{
     text-decoration: none;
@@ -51,45 +52,47 @@ text-decoration: none;
 }
 /* герой*/
 /* Эффективные решения для вашего бизнеса */
+
 .hero{
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background-color:  #2F303A;
+background-color:  #2F303A;;
 }
-.title{
+.hero-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 color: #FFFFFF;
 }
-.button{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+.hero-button{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+
 }
-.button:hover,
-.button:focus{
+.hero-button:hover,
+.hero-button:focus{
 background: #2196F3;
 }
 /*Секція про нас*/
-.uppertitle{
+.content,
+.main{
+background-color: #E5E5E5;
+}
+.content-title{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 color: #757575;
 }
-.heading{
+.content-heading{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -107,6 +110,14 @@ letter-spacing: 0.03em;
 color: #212121;
 }
 /*Наша команда*/
+.user{
+background: #F5F4FA;   
+}
+.user-list-itm{
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 .user-title{
 font-weight: 500;
 font-size: 16px;
@@ -121,6 +132,42 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: #757575;
 }
+
+/*Footer*/
+.footer{
+background: #2F303A;
+}
+.footer-nav{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;  
+}
+.footer-logo{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.footer-accent{
+ color:black;  
+}
+.footer-link,
+.footer-contact{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
 
 
 
