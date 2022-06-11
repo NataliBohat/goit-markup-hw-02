@@ -5,82 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <!--Секція хедер-->
+    <header class="header">
       <nav>
-        <a href="https://github.com/NataliBohat/goit-markup-hw-01.">
-          <span>Web</span><span>Studio</span></a
+        <a a class="header-logo" href=""lang="ru">Web<span class="header-accent">Studio</span></a
         >
-        <ul>
-          <li>
-            <a href="https://github.com/NataliBohat/goit-markup-hw-01."
+        <ul class="header-list list">
+          <li class="header-list-item">
+            <a class="header-current lint" href="https://github.com/NataliBohat/goit-markup-hw-01."
               >Студия</a
             >
           </li>
-          <li>
-            <a href="https://github.com/NataliBohat/goit-markup-hw-01."
+          <li class="header-list-item">
+            <a  class="header-link link" href="https://github.com/NataliBohat/goit-markup-hw-01."
               >Портфолио</a
             >
           </li>
-          <li>
-            <a href="https://github.com/NataliBohat/goit-markup-hw-01."
+          <li  class="header-list-item">
+            <a  class="header-link link" href="https://github.com/NataliBohat/goit-markup-hw-01."
               >Контакты</a
             >
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="info@devstudio.com" lang="en">info@devstudio.com</a></li>
-        <li>
-          <a class="contact_link" href="tel:+38 096 111 11 11"
+      <ul class="header-list list">
+        <li  class="header-list-item">
+          <a  class="header-nav link " href="info@devstudio.com" lang="en">info@devstudio.com</a></li>
+        <li  class="header-list-item">
+          <a class="header-contact link" href="tel:+38 096 111 11 11"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
     </header>
+     <!--Герой-->
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+      <!--Секція Герой-->
+      <section class="hero">
+        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+        <button class="button" type="button">Заказать услугу</button>
       </section>
-      <section>
+      <section class="main">
         <h2 hidden>Про нас</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="heading">Внимание к деталям</h3>
+            <p class="uppertitle">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="heading">Пунктуальность</h3>
+            <p class="uppertitle">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="heading">Планирование</h3>
+            <p class="uppertitle">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="heading">Современные технологии</h3>
+            <p class="uppertitle">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="main">
+        <h2 class="main-title">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/img.jpg"
@@ -96,36 +103,36 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="user">
+        <h2 class="main-title">Наша команда</h2>
+        <ul class="user list">
           <li>
             <a href=""
-              ><img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270"
+              ><img class="" src="./img/igor.jpg" alt="Игорь Демьяненко" width="270"
             /></a>
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="user-title">Игорь Демьяненко</h3>
+            <p class="user-uppertitle">Product Designer</p>
           </li>
           <li>
             <a href=""
               ><img src="./img/olga.jpg" alt="Ольга Репина" width="270"
             /></a>
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="user-title">Ольга Репина</h3>
+            <p class="user-uppertitle">Frontend Developer</p>
           </li>
           <li>
             <a href=""
               ><img src="./img/nicolai.jpg" alt="Николай Тарасов" width="270"
             /></a>
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="user-title">Николай Тарасов</h3>
+            <p class="user-uppertitle">Marketing</p>
           </li>
           <li>
             <a href=""
               ><img src="./img/mihail.jpg" alt="Михаил Ермаков" width="270"
             /></a>
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="user-title">Михаил Ермаков</h3>
+            <p class="user-uppertitle">UI Designer</p>
           </li>
         </ul>
       </section>
