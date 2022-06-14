@@ -2,11 +2,17 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --acsent-text-color: #2196f3;
+    --slogan-text-color:#FFFFFF;
+    --page-color: #2F303A;
+    --aside-text-color:  #E5E5E5;
+    --box-color:#F5F4FA;
+    --subtitle-text-color:#000000;
+    --contact-text-color:rgba(255, 255, 255, 0.6);
   }
 
 body{
     font-family:Roboto, sans-serif;
-    background-color: #ffffff;
+    background-color: var(--slogan-text-color);
     color: var(--primary-text-color);
 }
 .link{
@@ -32,7 +38,7 @@ letter-spacing: 0.02em;
     color:var(--acsent-text-color);
 }
 .header-accent {
-    color:black;
+    color: var( --subtitle-text-color);
 }
 .header-current{
 color:var(--acsent-text-color);
@@ -45,14 +51,14 @@ color: var(--secondary-text-color);
 }
 /* герой*/
 .hero{
-background-color:  #2F303A;
+background-color: var( --page-color);
 }
 .hero-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
-color: #FFFFFF;
+color: var(--slogan-text-color);;
 }
 .hero-button{
 font-family: 'Roboto';
@@ -64,7 +70,7 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
-color: #FFFFFF;
+color: var(--slogan-text-color);
 background: var(--acsent-text-color);
 }
 .hero-button:hover,
@@ -74,7 +80,7 @@ background:var(--acsent-text-color);
 /*Секція про нас*/
 .content,
 .main{
-background-color: #E5E5E5;
+background-color: var( --aside-text-color);
 }
 .content-title{
 font-weight: 400;
@@ -103,10 +109,10 @@ color: var(--primary-text-color);
 
 /*Наша команда*/
 .user{
-background: #F5F4FA;   
+background: var(--box-color);   
 }
 .user-list-itm{
-background: #FFFFFF;
+background:var(--slogan-text-color);
 }
 .user-title{
 font-weight: 500;
@@ -129,38 +135,29 @@ color: var(--secondary-text-color);
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    background: #2F303A;
+    background: var( --page-color);
 }
 .footer-nav{
-    color: #FFFFFF;  
+    color: var(--slogan-text-color);
 }
 .footer-contact{
-color: rgba(255, 255, 255, 0.6);
+color: var( --contact-text-color);
 }
 
 /* Rectangle*/
 .button{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-background-color: var(--acsent-text-color);
-color: #FFFFFF;
-}
-.button:hover,
-.button:focus{
-background:var(--acsent-text-color);
-}
-.main-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+    cursor: pointer;
 }
-.main-button:hover,
-.main-button:focus{
+.button:hover,
+.button:focus{
  background-color: var(--acsent-text-color);
+ color: var(--slogan-text-color);
+
 }
 /* img */
 .title{
