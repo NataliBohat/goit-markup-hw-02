@@ -37,28 +37,32 @@ letter-spacing: 0.02em;
     line-height: 1.19;
     color:var(--acsent-text-color);
 }
-.header-accent {
-    color: var( --subtitle-text-color);
-}
-.header-current{
-color:var(--acsent-text-color);
-}
 .header-link{
-color: var(--primary-text-color);   
+ color: var(--primary-text-color);
+}
+.header-link:hover,
+.header-link:focus{
+color: #2196F3;  
 }
 .header-contact{
 color: var(--secondary-text-color);    
+}
+.header-contact:hover,
+.header-contact:focus{
+    color:var(--acsent-text-color);
 }
 /* герой*/
 .hero{
 background-color: var( --page-color);
 }
 .hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-color: var(--slogan-text-color);;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--slogan-text-color);
 }
 .hero-button{
 font-family: 'Roboto';
@@ -80,7 +84,7 @@ background:var(--acsent-text-color);
 /*Секція про нас*/
 .content,
 .main{
-background-color: var( --aside-text-color);
+background-color:var( --slogan-text-color);
 }
 .content-title{
 font-weight: 400;
@@ -131,16 +135,22 @@ color: var(--secondary-text-color);
 
 /*Footer*/
 .footer{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-    background: var( --page-color);
+background: var( --page-color);
 }
 .footer-nav{
-    color: var(--slogan-text-color);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+ color: var(--slogan-text-color);
 }
 .footer-contact{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
 color: var( --contact-text-color);
 }
 
